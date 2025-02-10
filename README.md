@@ -5,4 +5,4 @@ Replaces bad words in Geofs chat with * using <a href="https://github.com/devXpr
 
 To add exceptions, edit the "exeptions" array in the script.
 
-To install copy the contense of userscript.js into Tampermonkey.
+To install copy the contents of userscript.js into Tampermonkey.
