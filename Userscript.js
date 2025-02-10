@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Chat cleaner
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/KittenApps-Films/Geofs-chat-cleaner
 // @version      2025-02-09
-// @description  Filters Geofs chat for bad words
-// @author       Noah S. Davidson, Geofs call sign KittenFilms[KFA]
+// @description  Filters GeoFS chat for bad words
+// @author       Noah S. Davidson, GeoFS call sign KittenFilms[KFA]
 // @match        http://geo-fs.com/geofs.php?v=*
 // @match        http://www.geo-fs.com/geofs.php?v=*
 // @match        https://geo-fs.com/geofs.php?v=*
