@@ -36,21 +36,7 @@ window.addEventListener('load', function() {
     words.id = "Chat cleaner exeptions and allowed";
     document.body.appendChild(words);
     var chat = document.createElement('script');
-    //realismScript.src="https://raw.githack.com/KittenApps-Films/Geofs-fuel-addon/main/main.js";
-    chat.innerHTML = `
-    setTimeout(function(){
-    var exectionalWords = exeptions;
-    //var badWordsArray = newBad;
-    console.log("Chat running");
-    setInterval(clean, 100);
-    function clean() {
-    let chat = document.getElementsByClassName('geofs-chat-message')
-    for (let item of chat) {
-    item.innerHTML = profanityCleaner.clean(item.innerHTML, { exceptions: exectionalWords })
-}
-    }
-}, 2000);
-    `
+    chat.src="https://kittenapps-films.github.io/geofs-addons/addon-scripts/chat-cleaner.js";
     chat.id = "Chat cleaner add-on";
     document.body.appendChild(chat);
     console.log("Chat cleaner installed");
