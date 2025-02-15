@@ -26,7 +26,7 @@ jobs:
     - name: Copy OpenAPI file
       run: bash ./.github/scripts/copy-openapi-file.sh
       env:
-        DESTINATION_PATH: ./notehub-js/
+        DESTINATION_PATH: ./KittenApps-Films.github.io/
     # make a branch in notehub-js repo and push the copy of the openapi file there
     - name: Push to notehub-js repo
       run: bash ./.github/scripts/push-openapi-to-notehub-js.sh
