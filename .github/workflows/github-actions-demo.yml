@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} edited the file
 on:
   push:
     branches:
-      - main # or a pattern like "*" for including all branches
+      - main
     paths:
       - main.js
     tags-ignore:
