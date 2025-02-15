@@ -17,7 +17,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-files: 'main.js'
+          source-files: './main.js'
           destination-username: 'KittenApps-Films'
           destination-repository: 'KittenApps-Films.github.io'
           #destination-directory: 'projects/my-project'
