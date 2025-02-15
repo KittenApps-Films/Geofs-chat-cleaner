@@ -6,7 +6,7 @@ on:
     branches: 
       - master
     paths:
-      - 'notehub/api/openapi.yaml'
+      - 'Geofs-chat-cleaner/main.js'
 
 jobs:
   copy_openapi_file_to_notehub_js: 
