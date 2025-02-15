@@ -1,7 +1,13 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is edited
 on:
-  push
+  push:
+    branches:
+      - develop # or a pattern like "*" for including all branches
+    paths:
+      - main.js
+    tags-ignore:
+      - "*"
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
