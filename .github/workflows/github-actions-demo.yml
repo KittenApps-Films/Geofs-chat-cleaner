@@ -1,8 +1,7 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is edited
 on:
-  release:
-    types: [edited]
+  push
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
