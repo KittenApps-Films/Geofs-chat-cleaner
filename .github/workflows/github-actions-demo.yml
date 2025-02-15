@@ -20,5 +20,5 @@ jobs:
           source-files: './main.js'
           destination-username: 'KittenApps-Films'
           destination-repository: 'KittenApps-Films.github.io'
-          #destination-directory: 'projects/my-project'
+          destination-directory: 'geofs/geofs-addons/addon-scripts'
           commit-email: 'kittenappsandfilms@gmail.com'
