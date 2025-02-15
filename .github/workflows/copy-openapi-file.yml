@@ -4,7 +4,7 @@ name: Copy updated OpenAPI file
 on: 
   push:
     branches: 
-      - master
+      - main
     paths:
       - 'Geofs-chat-cleaner/main.js'
 
