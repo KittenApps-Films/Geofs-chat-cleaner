@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - fuel.js
+      - chat-cleaner.js
     tags-ignore:
       - "*"
 jobs:
