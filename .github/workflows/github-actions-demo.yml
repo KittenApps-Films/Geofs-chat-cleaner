@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - main.js
+      - fuel.js
     tags-ignore:
       - "*"
 jobs:
