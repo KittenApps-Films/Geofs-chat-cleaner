@@ -1,5 +1,5 @@
-name: Copy main.js
-run-name: ${{ github.actor }} edited main.js, copying it to server
+name: Copy chat-cleaner.js
+run-name: ${{ github.actor }} edited chat-cleaner.js, copying it to server
 on:
   push:
     branches:
