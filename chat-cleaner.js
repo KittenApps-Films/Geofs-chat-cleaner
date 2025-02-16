@@ -12,4 +12,3 @@ setTimeout(function(){
     }
 }, 2000);
 //it worked
-//yey
