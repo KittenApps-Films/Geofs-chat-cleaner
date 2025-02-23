@@ -16,7 +16,7 @@
 window.addEventListener('load', function() {
     'use strict';
     let exeptions = ["fun", "cockpit", "fuel"]
-    let bad = [""]
+    let bad = ["wtf", "damn"]
     var cleaner = document.createElement('script');
     cleaner.src="https://cdn.jsdelivr.net/npm/profanity-cleaner@latest";
     cleaner.id = "profanity-cleaner";
