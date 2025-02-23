@@ -6,3 +6,5 @@ Replaces bad words in GeoFS chat with * using <a href="https://github.com/devXpr
 To add exceptions, edit the "exeptions" array in the script.
 
 To install copy the contents of userscript.js into Tampermonkey.
+
+<a href="https://kittenapps-films.github.io/" target="_blank">Made by Kitten Films</a>
