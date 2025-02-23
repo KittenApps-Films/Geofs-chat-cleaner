@@ -16,23 +16,23 @@
 window.addEventListener('load', function() {
     'use strict';
     let exeptions = ["fun", "cockpit", "fuel"]
-    //let bad = ["I\'m"]
+    let bad = ["I\'m"]
     var cleaner = document.createElement('script');
     cleaner.src="https://cdn.jsdelivr.net/npm/profanity-cleaner@latest";
     cleaner.id = "profanity-cleaner";
     document.body.appendChild(cleaner);
     var words = document.createElement('script');
     var stringE = ""
-    //var stringA = ""
+    var stringA = ""
     exeptions.forEach(exe)
-    //bad.forEach(maker)
-    words.innerHTML = "let exeptions = [" + stringE + "]; ";//let newBad = [" + stringA + "];";
+    bad.forEach(maker)
+    words.innerHTML = "let exeptions = [" + stringE + "]; let newBad = [" + stringA + "];";
     function exe(item, index) {
         stringE += "\""+item+"\","
     }
-    /*function maker(item, index) {
+    function maker(item, index) {
         stringA += "\""+item+"\","
-    }*/
+    }
     words.id = "Chat cleaner exeptions and allowed";
     document.body.appendChild(words);
     var chat = document.createElement('script');
