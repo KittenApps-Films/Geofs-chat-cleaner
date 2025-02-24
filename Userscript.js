@@ -36,7 +36,7 @@ window.addEventListener('load', function() {
     words.id = "Chat cleaner exeptions and allowed";
     document.body.appendChild(words);
     var chat = document.createElement('script');
-    chat.src="https://kittenapps-films.github.io/geofs/geofs-addons/addon-scripts/chat-cleaner.js";
+    chat.src="https://kittenapps-films.github.io/Geofs-chat-cleaner/chat-cleaner.js";
     chat.id = "Chat cleaner add-on";
     document.body.appendChild(chat);
     console.log("Chat cleaner installed");
