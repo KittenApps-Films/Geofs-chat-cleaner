@@ -5,7 +5,7 @@ setTimeout(function(){
     function clean() {
     let chat = document.getElementsByClassName('geofs-chat-message')
     for (let item of chat) {
-    item.innerHTML = profanityCleaner.clean(item.innerHTML, { exceptions: exeptions, customBadWords: newBad })
+    item.innerHTML = profanityCleaner.clean(item.innerHTML, { exceptions: exeptions, customBadWords: newBad, keepFirstAndLastChar: true })
 }
     }
 }, 2000);
